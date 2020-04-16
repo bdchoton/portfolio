@@ -1,0 +1,195 @@
+*{margin: 0; padding: 0;}
+
+html, body{width:100%; height:100%; /* background:#262626; */ font-family: arial; font-size: 15px; line-height: 25px;}
+
+h1,h2,h3,h4,h5,h6{font-family: arial block;}
+img{max-width: 100%;}
+
+.container{margin-top: 30px;}
+
+#more {display: none;}
+
+
+.All_Blocks{
+	width: 1140px;	
+	margin: auto; 
+	padding: 20px 0px; 
+	align-content: center; 
+	padding-bottom: 30px; 
+	text-align: center;
+	overflow: hidden;
+	}
+
+.Section_Title{
+	font-size: 30px;
+	text-decoration: none;
+	font-weight: bold;
+	text-align: left;
+	font-family: arial black;
+	margin-bottom: 30px;
+	text-shadow: 2px 1px green;
+	}
+
+.Section_Title h1{
+	font-weight: bold;
+	margin: 30px;
+	}
+
+.Section_Title span{
+	color: #ff5722;
+	}
+
+.content{background-color: #eaeaeac9; 
+	width: 355px; 
+	height: 300px; 
+	margin: 10px 10px; 
+	padding: 20px;
+	display: inline-block; 
+	border: 2px solid #ff5722; 
+	border-radius: 10px; 
+	transition: all 1s; 
+	overflow-y: hidden; 
+	animation-name: zoom_in_my_content; 
+	animation-duration: 1.5s;
+	}
+
+.content:hover{
+	background: #3c3b3bcc; 
+	color: white; 
+	cursor: pointer; 
+	transform: scale(1.1)
+	}
+
+@keyframes zoom_in_my_content{
+	from {transform: scale(0)}
+	to {transform: scale(1)}
+	}
+
+
+/* rotate(0deg) rotate(360deg)  scale(1.1) translateY(-20px) {opacity:0} {opacity:1} */
+
+
+.content_title h4{
+	font-weight: bold;
+	padding-top: 10px; 
+	text-align: center; 
+	color: blue; 
+	font-stretch: extra-expanded
+	}
+
+.content:hover h4{
+	color: #ff5722;
+	}
+
+.content_icon i{
+	font-size: 50px;
+	text-align: center;
+	color: #ff5722;
+	}
+
+.content:hover i{
+	color: white;
+	}
+
+
+.content_icon{width: 70px;
+	height: 70px;
+	float: left;
+
+	}
+
+
+
+.content_title{width: 230px;
+	height: 70px;
+	float: right;
+	}
+
+
+
+.content_post{padding-top: 75px;
+
+}
+
+.content_post p{
+	font-size: 15px; 
+	padding-left: 10px; 
+	text-align: justify;
+	}
+
+.content_icon, .content_title{display: inline-block;}
+
+ ----------------1st section End-----------------
+
+.personal_section{
+	width: 1140px;
+	height: 800px;
+	margin: auto; 
+	padding-bottom: 10px; 
+	position: relative;
+}
+
+#About_section{
+	height: 700px;
+	padding: 30px;
+}
+
+.My_Photo{padding-left: -10px;float: left;}
+
+.My_Photo img{
+	width: 420px;
+	float: left;
+	border: 3px solid #ddd;
+	background: #ddd;
+	box-shadow: 5px 10px 40px -5px black;
+	border-radius: 15px;
+	margin: 10px 10px;
+	padding: 10px 10px;
+	display: inline-block
+}
+
+.About_Me{
+	width: 580px;
+	height: 530px;
+	float: right;
+	margin: 10px 15px;
+	padding: 20px;
+	padding-right: 20px;
+	overflow: hidden;
+	border: 1px solid #ddd;
+}
+
+.My_Photo, .About_Me{display: inline-block;}  
+
+.About_Me h2{
+	margin-top: 10px;
+	font-size: 50px;
+	padding-bottom: 10px;
+	color: red;
+	border-bottom: 4px double red;
+	margin-bottom: 20px;
+}
+
+.About_Me p{
+	font-size: 20px;
+	text-align: justify;
+}
+
+
+
+
+
+
+
+
+footer{background-color: black; 
+	color: white;
+	text-align: center;
+	padding: 30px 0px; 
+	margin: 20px 0px; 
+	margin-bottom: 0px;}
+
+
+
+
+
